@@ -1,0 +1,85 @@
+body {
+    background: chocolate;
+    background-size: cover;
+    color: #535353;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size: 18px;
+    text
+}
+#container {
+    width: 600px;
+    margin: 40px auto 0;
+    padding: 50px;
+    box-sizing: border-box;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius:5px;
+    text-align: center; 
+}
+h1 {
+    margin: 0 0 20px;
+    padding: 0 0 20px;
+    border-bottom: solid 1px #bbb;
+}
+form {
+    text-align: left;
+}
+form label {
+    display: block;
+    margin: 25px 0;
+    font-weight: bold;
+}
+form input, form select {
+    padding: 9px;
+    margin: 10px 0;
+}
+form input [type="text"]{
+width: 120px;
+}
+button {
+    background: darkcyan;
+    color: whitesmoke;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10p;
+    border: none;
+    border-bottom: solid 4px #222;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 20px 30px;
+    width: 100%;
+    
+}
+button:hover{
+    background: orangered;
+    border-bottom-color: #111;
+}
+button:active{
+    position: relative;
+    top: 2px;
+}
+button span {
+    font-size: 25px;
+    color: wheat;
+    font-family: Courier New, Courier, monospace;
+    font-style: oblique;
+}
+#totalTip{
+    font-size: 50px;
+    margin-top: 40px;
+}
+#totalTip:before{
+    content: "Bill amount";
+    font-size: 16px;
+    display: block;
+    text-transform: capitalize;
+}
+#totalTip sup{
+    font-size: 25px;
+    top: 1px;
+}
+#totalTip small {
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+}

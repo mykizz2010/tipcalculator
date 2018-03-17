@@ -1,0 +1,47 @@
+<!DOCTYPE HTML >
+<html>
+    <head>
+        <title> Tip Calculator</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    </head>
+    <body style="background: #ccc url('img/beach.jpg') center center no-repeat;background-size: cover;
+    color:chocolate;" >
+        <div id="container" style="background: url('img/paper-pattern.jpg') top left repeat;">
+            <h1> Item Calculator</h1>
+
+            <div id="calculator">
+                <div id="message"></div>
+                <form action="" id="myCalc">
+                    <label> How much is your electric bill? <br>
+                             <input type="text" name="" id="billAmount">
+                    </label>
+                    <label>
+                        How was your Services? <br>
+                        <select name="" id="serviceQuality">
+                            <option value="0" disabled selected> --- Please choose an option</option>
+                            <option value="0.3"> 90% - Outstanding</option>
+                            <option value="0.2"> 70% - Excellent </option>
+                            <option value="0.15"> 50% - Good</option>
+                            <option value="0.1"> 30% - Bad</option>
+                            <option value="0.05"> 15% - Very Terrible</option>
+                        </select>
+                    </label>
+                    <label>
+                        Ho many people are sharing the electric bill? <br>
+                        <input type="text" name="" id="totalPeople"> <br>
+                         Numbers of people
+                    </label>
+                    <button type="button" id="calculate"><span>Calculate Bill</span></button>
+                </form>
+            </div>
+            <div id="totalTip">
+                <sup># </sup><span id="tip">0.00</span>
+                <small id="each"> Each</small>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
